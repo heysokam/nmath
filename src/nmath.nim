@@ -1,6 +1,6 @@
-#:________________________________________
-#  Copyright (C) Ivan Mar (sOkam!) : MIT :
-#:________________________________________
+#:_____________________________________________________
+#  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT  :
+#:_____________________________________________________
 # std dependencies
 import std/math        as smath   ; export smath
 # External dependencies

@@ -1,6 +1,6 @@
-#:________________________________________
-#  Copyright (C) Ivan Mar (sOkam!) : MIT :
-#:________________________________________
+#:_____________________________________________________
+#  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT  :
+#:_____________________________________________________
 # ndk dependencies
 import nstd/types as baseTypes
 # Module dependencies

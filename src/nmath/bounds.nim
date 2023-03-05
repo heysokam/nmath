@@ -1,10 +1,8 @@
-#:________________________________________
-#  Copyright (C) Ivan Mar (sOkam!) : MIT :
-#:________________________________________
+#:_____________________________________________________
+#  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT  :
+#:_____________________________________________________
 # External dependencies
 import pkg/vmath
-# ndk dependencies
-import nfx
 # Module dependencies
 import ./types
 import ./vec

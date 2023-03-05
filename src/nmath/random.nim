@@ -3,7 +3,7 @@
 #  This file contains modified code from ftsf/nico (MIT)  :
 #  See the license.md for details about its copyright.    :
 #:_________________________________________________________
-# ndk dependencies
+# std dependencies
 import std/random
 
 #______________________________

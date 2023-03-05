@@ -1,5 +1,5 @@
 #:_______________________________________________________________
-#  nfx : Copyright (C) Ivan Mar (sOkam!) : MIT                   :
+#  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT             :
 #  This file contains code from lbartoletti/fpn (MIT)            :
 #  Check the doc/licenses folder for more info about its license :
 #:________________________________________________________________
