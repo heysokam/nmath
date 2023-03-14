@@ -3,6 +3,7 @@
 #  This file contains modified code from ftsf/nico (MIT)  :
 #  See the license.md for details about its copyright.    :
 #:_________________________________________________________
+from std/math import sqrt
 
 #______________________________
 # Float specific tools
@@ -10,6 +11,7 @@
 #______________________________
 
 #______________________________
+const Phi     *:SomeFloat= (1 + 5'f64.sqrt) / 2  ## Golden Ratio, Phi = (1 + 5.sqrt) / 2
 const Epsilon *:SomeFloat= 0.00001
 
 #______________________________

@@ -11,9 +11,13 @@ import ./types
 #______________________________
 # vmath.extend
 #______________________________
-template gvec2*[T](x :T) :GVec3[T]=  gvec3[T](x, x, x)
+template gvec2*[T](x :T) :GVec2[T]=  gvec2[T](x, x)
 template gvec3*[T](x :T) :GVec3[T]=  gvec3[T](x, x, x)
-template gvec4*[T](x :T) :GVec3[T]=  gvec3[T](x, x, x)
+template gvec4*[T](x :T) :GVec4[T]=  gvec4[T](x, x, x, x)
+#____________________
+template vec2*(x,y     :SomeNumber) :Vec2=  vec2(x.float32, y.float32)
+template vec3*(x,y,z   :SomeNumber) :Vec3=  vec3(x.float32, y.float32, z.float32)
+template vec4*(x,y,z,w :SomeNumber) :Vec4=  vec4(x.float32, y.float32, z.float32, w.float32)
 #____________________
 proc  `<` *[T](a, b :GVec3[T]) :bool=  a[0]  < b[0] and a[1]  < b[1] and a[2]  < b[2]
 proc  `>` *[T](a, b :GVec3[T]) :bool=  a[0]  > b[0] and a[1]  > b[1] and a[2]  > b[2]
