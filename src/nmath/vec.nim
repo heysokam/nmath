@@ -32,6 +32,11 @@ proc clamp *[T](v, minv, maxv :GVec3[T]) :GVec3[T]=  v.min(maxv).max(minv)
   ## Clamps the value of each component of vector v,
   ## to be in the range between the components of vectors minv and maxv
 #______________________________
+proc zdot  *(v1,v2 :Vec3) :f32=  max(0, v1.dot(v2))
+  ## Returns the v1.dot(v2) clamped to a minimum value of 0.
+proc nzdot *(v1,v2 :Vec3; epsilon :f32= 0.00001) :f32=  max(v1.dot(v2), epsilon)
+  ## Returns v1.dot(v2), clamped to a mimimum of epsilon (default: 0.00001) to avoid div by 0.
+#______________________________
 proc tripleProd *[T](a,b,c :GVec3[T]) :GVec3[T]=  a.cross(b).cross(c)
   ## (AB x AO) x AB  :  Where a = AB, b = AO, and c = AB
   ## Finds the perpendicular vector of AB, facing towards O
