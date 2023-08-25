@@ -3,7 +3,7 @@
 #:_____________________________________________________
 # External dependencies
 import pkg/vmath
-# Module dependencies
+# n*math dependencies
 import ./types
 import ./vec
 

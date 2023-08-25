@@ -16,4 +16,3 @@ import ./nmath/floats  as nFloats ; export nFloats
 import ./nmath/ints    as nInts   ; export nInts
 import ./nmath/ranges  as nRanges ; export nRanges
 # import ./nmath/rotor   ; export rotor
-

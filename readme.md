@@ -1,4 +1,4 @@
-# Nim Math Extensions
+# n*math | Nim Math Tools
 Math tools for graphics and general use.
 `std/math` for basic purposes
 `vmath`    for vector math, extended

@@ -1,7 +1,7 @@
 #:_____________________________________________________
 #  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT  :
 #:_____________________________________________________
-# Module dependencies
+# n*math dependencies
 import ./vec
 
 #______________________________

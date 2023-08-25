@@ -1,9 +1,9 @@
 #:_____________________________________________________
 #  nmath  |  Copyright (C) Ivan Mar (sOkam!)  |  MIT  :
 #:_____________________________________________________
-# ndk dependencies
+# n*dk dependencies
 import nstd/types as baseTypes
-# Module dependencies
+# n*math dependencies
 import ./types
 
 

@@ -5,7 +5,7 @@
 #:________________________________________________________________
 # std dependencies
 import std/math
-# Module dependencies
+# n*math dependencies
 from ./divd import count_int_divide
 
 

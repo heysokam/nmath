@@ -3,9 +3,9 @@
 #:_____________________________________________________
 # std dependencies
 import std/strformat
-# ndk dependencies
+# n*dk dependencies
 import nstd/types
-# Module dependencies
+# n*math dependencies
 import ./types/trf
 import ./types/vec
 

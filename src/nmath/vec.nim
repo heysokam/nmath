@@ -3,9 +3,9 @@
 #:_____________________________________________________
 # External dependencies
 import pkg/vmath
-# ndk dependencies
+# n*dk dependencies
 import nstd/types as base
-# Module dependencies
+# n*math dependencies
 import ./types
 
 #______________________________
