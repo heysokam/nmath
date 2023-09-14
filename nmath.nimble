@@ -18,6 +18,7 @@ binDir           = "bin"
 let testsDir     = "tests"
 let examplesDir  = "examples"
 let docDir       = "doc"
+skipFiles        = @["nim.cfg"]
 
 #___________________
 # Build requirements
