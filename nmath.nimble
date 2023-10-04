@@ -6,7 +6,7 @@ import std/[ os,strformat ]
 #___________________
 # Package
 packageName   = "nmath"
-version       = "0.1.0"
+version       = "0.1.1"
 author        = "sOkam"
 description   = "n*math | Nim Math Tools"
 license       = "MIT"
